@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxool>
+    <alias>converse</alias>
+     <!-- <driver-url>jdbc:sqlserver://172.17.74.147:1433;databaseName=sxzh</driver-url> -->  
+   <!--  <driver-url>jdbc:sqlserver://192.168.0.110:1433;databaseName=sxzh1219</driver-url>   -->
+    <driver-url>jdbc:sqlserver://127.0.0.1:1433;databaseName=sxzh</driver-url>  
+    <driver-class>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver-class>
+    <driver-properties>
+      <property name="user" value="sa"/>
+      <property name="password" value="gxg_198151"/>
+    </driver-properties>
+	<maximum-active-time>1800000</maximum-active-time> <!-- 最大活动时间   默认值：5分钟 -->
+    <maximum-connection-count>10000</maximum-connection-count><!-- 最大连接数   默认值：10000个 -->
+    <minimum-connection-count>5</minimum-connection-count><!-- 最小连接数   默认值：5个 -->
+    <simultaneous-build-throttle>100</simultaneous-build-throttle><!-- 这是我们可一次建立的最大连接数。默认值：10 -->
+</proxool>

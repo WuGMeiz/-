@@ -1,0 +1,11 @@
+/*建行后台管理系统*/
+.box_right_wydl2{
+width: 920px;
+float: right;
+margin-top: 6px;
+}
+.jh_logins_tle{ font-size:48px;font-weight:bold;color:#0066b3; text-align:center;margin:87px 0px 50px 0px;}
+.jh_logins{width:554px;margin:0 auto;height:298px;background:url(../images/jhht_03.png) no-repeat;}
+.box_jh_loginFrmbtn{width:73px;height:29px;line-height:29px;font-size:21px;color:#fff;border:none;background-color:transparent;background:url(../images/jhht_btn.png) no-repeat;margin-top:15px;_margin-top:10px;margin-left:40px;cursor:pointer;}
+/*商户后台管理系统*/
+.sh_logins_tle{ font-size:37px;font-weight: bolder;color:#0066b3; text-align:center;margin:15px 0px 50px 0px; font-family:"宋体"; letter-spacing:5px; border-bottom:2px solid #aacde7;line-height:76px;}
